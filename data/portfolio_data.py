@@ -1,14 +1,44 @@
 portfolio_data = [
     {
-        'title': 'bsahjfcba',
-        'desc': 'cdsvsd'
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
     },
     {
-        'title': 'bsahjfcba',
-        'desc': 'cdsvsd'
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
     },
     {
-        'title': 'bsahjfcba',
-        'desc': 'cdsvsd'
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
+    },
+    {
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
+    },
+    {
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
+    },
+    {
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
+    },
+    {
+        'image': 'https://picsum.photos/300/200',
+        'title': 'title',
+        'description': 'description',
+        'link': 'link'
     }
 ]

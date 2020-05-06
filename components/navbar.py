@@ -1,25 +1,22 @@
 import dash_bootstrap_components as dbc
+import dash_html_components as html
 
 
 def Navbar():
-    navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(dbc.NavLink(
-                "Trich.ai", href="https://trich.ai", external_link=True)),
-            dbc.DropdownMenu(
-                nav=True,
-                in_navbar=True,
-                label="Menu",
-                children=[
-                    dbc.DropdownMenuItem("Entry 1"),
-                    dbc.DropdownMenuItem("Entry 2"),
-                    dbc.DropdownMenuItem(divider=True),
-                    dbc.DropdownMenuItem("Entry 3"),
-                ],
-            ),
+    navbar = dbc.Navbar(
+        [
+            html.A(
+                dbc.Row(
+                    [
+                        dbc.Col(html.Div('trich.ai', className="logo")),
+                    ],
+                    align="center",
+                    no_gutters=True,
+                ),
+                href="https://trich.ai",
+            )
         ],
-        brand="Home",
-        brand_href="/home",
-        sticky="top",
+        color="dark",
+        dark=True,
     )
     return navbar
