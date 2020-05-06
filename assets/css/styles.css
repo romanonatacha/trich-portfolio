@@ -1,3 +1,19 @@
+/* reset css */
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
 /* boxes and containers */
 .boxed {
     margin: 0 auto;
@@ -14,40 +30,35 @@
     margin: 0 auto;
 }
 
+.total_width {
+    width: 100%;
+}
+
 
 /* colors */
 
-.white {
-    color: white;
+.default {
+    color: var(--default);
 }
 
-
-.red {
-    color: red;
+.primary {
+    color: var(--primary);
 }
 
-.light {
-   color: #adc1c3;
+.secondary {
+    color: var(--secondary);
 }
 
-.dark {
-    color: #082b36;
+.default_bg {
+    background-color: var(--default);
 }
 
-.bgGray {
-    background-color: #465053;
+.primary_bg {
+    background-color: var(--primary);
 }
 
-.bgDisplay {
-    background:#303030;
-}
-
-.bgLight {
-    background: #adc1c3;
-}
-
-.bgDark {
-    background: #082b36;
+.secondary_bg {
+    background-color: var(--secondaryBg);
 }
 
 
@@ -179,12 +190,15 @@
     border: none;
 }
 
-.radius32 {
-    border-radius: 32px;
-}
-
+.radius8 {
+    border-radius: 8px;
+} 
 .radius16 {
     border-radius: 16px;
+}
+
+.radius32 {
+    border-radius: 32px;
 }
 
 /* specific styles */
@@ -193,13 +207,18 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: var(--navColor);
+    color: white;
 }
 
 .logo {
     font-family: Squada One,"sans-serif";
-    color: white;
     font-size: 40px;
+    padding-left: 32px;
 }
 
 
