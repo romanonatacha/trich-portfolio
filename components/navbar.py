@@ -1,19 +1,18 @@
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
-
 import dash_html_components as html
 
 
 def Navbar():
     navbar = html.Div(
         [
-            dbc.Row(
+            html.Div(
                 [
-                    dbc.Col(html.Div(
+                    html.Div(html.Div(
                         html.A(
                             'trich.ai', className="logo", href="https://trich.ai",
-                        )), width=10),
-                    dbc.Col([
+                        ))),
+                    html.Div([
                         html.Div(
                             [
                                 dbc.Checkbox(
@@ -27,10 +26,10 @@ def Navbar():
                         dbc.Tooltip(
                             "Toggle light/dark theme",
                             target="toggle_theme",
-                            delay=1000
+                            delay={'show': 1000}
                         ),
-                    ], width=2)
-                ], className="total_width"
+                    ])
+                ], className="boxed flex_row_btw"
             )
         ],
         className="navbar"

@@ -3,18 +3,18 @@ setInterval(function () {
 
     checkbox.addEventListener('change', function () {
         if (this.checked) {
-            trans()
+            // trans()
             document.documentElement.setAttribute('data-theme', 'dark')
         } else {
-            trans()
+            // trans()
             document.documentElement.setAttribute('data-theme', 'light')
         }
     })
 
-    let trans = () => {
-        document.documentElement.classList.add('transition');
-        window.setTimeout(() => {
-            document.documentElement.classList.remove('transition');
-        }, 1000)
-    }
+    // let trans = () => {
+    //     document.documentElement.classList.add('transition');
+    //     window.setTimeout(() => {
+    //         document.documentElement.classList.remove('transition');
+    //     }, 300)
+    // }
 }, 1)

@@ -12,6 +12,7 @@ from components.homepage import Homepage
 
 external_stylesheets = [
     dbc.themes.BOOTSTRAP,
+    'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap',
     'https://fonts.googleapis.com/css2?family=Squada+One&display=swap',
     'https://use.fontawesome.com/releases/v5.8.1/css/all.css']
 
@@ -21,4 +22,4 @@ app.layout = Homepage()
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8000)
+    app.run_server(debug=True)
