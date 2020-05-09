@@ -1,4 +1,4 @@
-setTimeout(() => {
+setInterval(function () {
     const body = document.querySelector('#body_content');
     const loader = document.querySelector('#loader');
 

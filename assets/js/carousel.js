@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    setTimeout(() => {
+    setInterval(function () {
         if (window.innerWidth < 991) {
             $('.portfolio').slick({
                 slidesToShow: 3,
