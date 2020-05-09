@@ -4,24 +4,25 @@ import dash_core_components as dcc
 import dash_html_components as html
 from components.navbar import Navbar
 from components.about import About
-from components.card import Card
-
-from data.portfolio_data import portfolio_data
+from components.stacks import Stacks
+from components.portfolio import Portfolio
 
 nav = Navbar()
 about = About()
+portfolio = Portfolio()
+stacks = Stacks()
 
 body = dbc.Container([
     about,
-    html.Div([
-        Card(i['image'], i['title'], i['description'], i['link'], i['tech']) for i in portfolio_data
-    ], className="portfolio")
-], className="top32")
+    stacks,
+    portfolio
+], className="top32 d_none", id="body_content")
 
 
 def Homepage():
     layout = html.Div([
         nav,
+        dbc.Spinner(id="loader"),
         body
     ])
     return layout

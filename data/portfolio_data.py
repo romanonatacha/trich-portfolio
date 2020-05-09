@@ -4,7 +4,7 @@ portfolio_data = [
         'title': 'Projeto Show',
         'description': '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Python',
             'Dash',
             'Plotly'
@@ -15,7 +15,7 @@ portfolio_data = [
         'title': 'Projetinho',
         'description': 'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Python',
             'Dash',
             'CSS'
@@ -24,9 +24,9 @@ portfolio_data = [
     {
         'image': 'https://picsum.photos/300/200',
         'title': 'Muitos Dados',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Python',
             'JS',
             'Plotly'
@@ -37,7 +37,7 @@ portfolio_data = [
         'title': 'Show de Pelota',
         'description': 'niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Python',
             'Dash',
             'Plotly'
@@ -48,7 +48,7 @@ portfolio_data = [
         'title': 'o Cientista Maluco',
         'description': 'roident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Dash',
             'Plotly'
         ]
@@ -58,7 +58,7 @@ portfolio_data = [
         'title': 'A melhor Dev',
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
         'link': 'link',
-        'tech': [
+        'badge': [
             'Python',
             'CSS',
             'Plotly'
