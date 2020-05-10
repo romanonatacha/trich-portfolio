@@ -317,9 +317,17 @@ body {
         height: 24px;
     }
 
+    .portfolio.mobile {
+        display: none
+    }
+
 }
 
 @media screen and (max-width: 991px) {
+
+    .portfolio.desktop {
+        display: none;
+    }
 
     .portfolio {
         padding: 16px
