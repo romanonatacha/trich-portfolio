@@ -7,9 +7,9 @@ def Portfolio():
     portfolio = html.Div([
         html.Div([
             Card(i['image'], i['title'], i['description'], i['link'], i['badge']) for i in portfolio_data
-        ], className="portfolio desktop"),
+        ], className="portfolio"),
         html.Div([
             Card(i['image'], i['title'], i['description'], i['link'], i['badge']) for i in portfolio_data
-        ], className="portfolio mobile")
+        ], className="portfolio_mobile padding16")
     ])
     return portfolio
