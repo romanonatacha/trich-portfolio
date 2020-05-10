@@ -15,12 +15,6 @@ def Navbar():
                     html.Div([
                         html.Div(
                             [
-                                # dbc.Checkbox(
-                                #     id="theme_selector", className="container_toogle"),
-                                # dbc.Label(
-                                #     html_for="theme_selector",
-                                #     className="form-check-label"
-                                # ),
                                 dbc.FormGroup(
                                     [
                                         dbc.Checkbox(
