@@ -381,7 +381,9 @@ body {
         width: 100%;
     }
 
-    
+    .prev, .next {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px) {
