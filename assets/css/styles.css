@@ -292,6 +292,13 @@ body {
 
 @media only screen and (min-width: 992px) {
 
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     .portfolio_card {
         max-width: 332px;
         height: 100%;
@@ -317,7 +324,7 @@ body {
         height: 24px;
     }
 
-    .portfolio.mobile {
+    .portfolio_mobile {
         display: none
     }
 
@@ -325,12 +332,8 @@ body {
 
 @media screen and (max-width: 991px) {
 
-    .portfolio.desktop {
-        display: none;
-    }
-
     .portfolio {
-        padding: 16px
+        display: none;
     }
 
     .portfolio_card_img {
@@ -390,13 +393,6 @@ body {
 }
 
 /* specific styles */
-
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 .navbar {
     background-color: var(--navColor);
