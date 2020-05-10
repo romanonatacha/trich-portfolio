@@ -1,7 +1,7 @@
 /* http://paletton.com/#uid=33k0s0kkOp0aRCCgftHo-l7tzg5 */
 
 
-html body {
+body div#homepage {
     background: var(--primaryBg);
     color: var(--default);
   
@@ -15,7 +15,7 @@ html body {
     --terciary: #C75246;
   }
   
-  html[data-theme='dark'] body {
+  body div#homepage[data-theme='dark'] {
     background: var(--primaryBg);
     color: var(--default);
 

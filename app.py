@@ -6,7 +6,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
-
+from dash.dependencies import Output, Input
 from components.homepage import Homepage
 
 
@@ -32,6 +32,19 @@ app = dash.Dash(
 server = app.server
 
 app.layout = Homepage()
+
+
+@app.callback(
+    Output("homepage", "data-theme"),
+    [
+        Input("theme_selector", "checked"),
+    ],
+)
+def on_form_change(checkbox_checked):
+    if checkbox_checked:
+        return "dark"
+    else:
+        return "light"
 
 
 if __name__ == "__main__":

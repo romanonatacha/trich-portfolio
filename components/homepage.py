@@ -24,5 +24,5 @@ def Homepage():
         nav,
         dbc.Spinner(id="loader"),
         body
-    ])
+    ], id="homepage")
     return layout

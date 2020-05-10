@@ -15,12 +15,23 @@ def Navbar():
                     html.Div([
                         html.Div(
                             [
-                                dbc.Checkbox(
-                                    id="theme_selector", className="container_toogle"),
-                                dbc.Label(
-                                    html_for="theme_selector",
-                                    className="form-check-label"
-                                ),
+                                # dbc.Checkbox(
+                                #     id="theme_selector", className="container_toogle"),
+                                # dbc.Label(
+                                #     html_for="theme_selector",
+                                #     className="form-check-label"
+                                # ),
+                                dbc.FormGroup(
+                                    [
+                                        dbc.Checkbox(
+                                            id="theme_selector", className="container_toogle"
+                                        ),
+                                        dbc.Label(
+                                            html_for="theme_selector",
+                                            className="form-check-label",
+                                        ),
+                                    ],
+                                    check=True, )
                             ], id="toggle_theme"
                         ),
                         dbc.Tooltip(
@@ -28,9 +39,11 @@ def Navbar():
                             target="toggle_theme",
                             delay={'show': 1000}
                         ),
-                    ])
+                    ]),
+
                 ], className="boxed flex_row_btw"
-            )
+            ),
+
         ],
         className="navbar"
     )
