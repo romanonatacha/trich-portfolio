@@ -13,6 +13,8 @@ body div#homepage {
     --primary: #2B7279;
     --secondary: #C79C46;
     --terciary: #C75246;
+
+    height: auto;
   }
   
   body div#homepage[data-theme='dark'] {

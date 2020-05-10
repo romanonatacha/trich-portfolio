@@ -324,20 +324,12 @@ body {
         height: 24px;
     }
 
-    .portfolio_mobile {
-        display: none
-    }
-
 }
 
 @media screen and (max-width: 991px) {
 
-    .portfolio {
-        display: none;
-    }
-
     .portfolio_card_img {
-        height: 337px;
+        height: 418px;
     }
 
     .portfolio_card_text {
@@ -424,6 +416,10 @@ body {
 }
 .portfolio_card {
     height: 100%;
+}
+
+.portfolio_card:focus {
+    outline: none;
 }
 
 .stacks img {
