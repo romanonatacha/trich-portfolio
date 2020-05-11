@@ -1,0 +1,164 @@
+body {
+    position: relative;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: var(--navColor);
+    color: white;
+}
+
+.logo {
+    font-family: Squada One,"sans-serif";
+    font-size: 40px;
+}
+
+.about {
+    height: auto;
+    transition: 1s;
+}
+
+.about_content {
+    color: var(--defaultInverse);
+}
+
+.about_logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 45%;
+    margin: 16px auto 0;
+}
+
+.about_logos a:hover {
+    color: var(--primary);
+}
+
+.portfolio_card {
+    height: 100%;
+}
+
+.portfolio_card:focus {
+    outline: none;
+}
+
+.stacks img {
+    width: 80px;
+}
+
+.stacks .item:focus {
+    outline: none;
+}
+
+.stacks_container .btn:focus {
+    box-shadow: none;
+}
+
+#loader {
+    position: absolute;
+    top: 50%; right: 50%;
+    color: var(--secondary)
+}
+/* media queries */
+
+@media only screen and (min-width: 992px) {
+
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .portfolio_card {
+        max-width: 332px;
+        height: 100%;
+    }
+    
+    .portfolio_card_img {
+        height: 200px;
+    }
+    
+    .portfolio_card_img img:hover {
+        position: absolute;
+        width: 332px;
+        margin-left: -16px;
+        margin-top: -16px;
+        cursor: pointer;
+    }
+    
+    .portfolio_card_text {
+        height: calc(100% - 252px);
+    }
+    
+    .portfolio_card_footer {
+        height: 24px;
+    }
+
+    .git_kag {
+        border-left: solid 1px;
+    }
+
+    .about:hover h4 {
+        display: none;
+    }
+
+    .about h4 {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+    }
+
+    .about_content {
+        color: transparent
+    }
+    
+    .about:hover {
+        background-color: var(--secondary);
+    }
+    
+    .about:hover .about_content {
+        color: var(--defaultInverse);
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .portfolio_card_img {
+        height: 418px;
+    }
+
+    .portfolio_card_text {
+        height: calc(100% - 396px);
+    }
+    
+    .portfolio_card_footer {
+        height: 24px;
+    }
+
+    .portfolio_card_img img {
+        width: 100%;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .git_kag {
+        border-top: solid 1px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .about_content {
+        background-color: var(--terciary);
+    }
+
+    .about h4 {
+        text-align: center;
+        background-color: var(--secondary);
+        padding: 32px;
+    }
+    
+}

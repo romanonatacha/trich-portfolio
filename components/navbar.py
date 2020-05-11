@@ -31,11 +31,12 @@ def Navbar():
                         dbc.Tooltip(
                             "Toggle light/dark theme",
                             target="toggle_theme",
-                            delay={'show': 1000}
+                            delay={'show': 1000},
+                            className="mb_hide"
                         ),
                     ]),
 
-                ], className="boxed flex_row_btw"
+                ], className="container flex_row_btw"
             ),
 
         ],
