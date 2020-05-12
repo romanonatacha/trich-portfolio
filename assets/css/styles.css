@@ -218,6 +218,14 @@ body {
     padding: 16px;
 }
 
+.padding24 {
+    padding: 24px;
+}
+
+.padding32 {
+    padding: 32px;
+}
+
 .padding40 {
     padding: 40px;
 }
@@ -292,53 +300,13 @@ body {
 
 @media only screen and (min-width: 992px) {
 
-    .portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .portfolio_card {
-        max-width: 332px;
-        height: 100%;
-    }
-    
-    .portfolio_card_img {
-        height: 200px;
-    }
-    
-    .portfolio_card_img img:hover {
-        position: absolute;
-        width: 332px;
-        margin-left: -16px;
-        margin-top: -16px;
-        cursor: pointer;
-    }
-    
-    .portfolio_card_text {
-        height: calc(100% - 252px);
-    }
-    
-    .portfolio_card_footer {
-        height: 24px;
+    .dt_hide {
+        display: none;
     }
 
 }
 
 @media screen and (max-width: 991px) {
-
-    .portfolio_card_img {
-        height: 418px;
-    }
-
-    .portfolio_card_text {
-        height: calc(100% - 396px);
-    }
-    
-    .portfolio_card_footer {
-        height: 24px;
-    }
 
     .boxed {
         width: 100%;
@@ -369,11 +337,7 @@ body {
         line-height: 24px;
     }
 
-    .portfolio_card_img img {
-        width: 100%;
-    }
-
-    .prev, .next {
+    .mb_hide {
         display: none;
     }
 }
@@ -384,66 +348,4 @@ body {
         width: 70%;
     }
 
-}
-
-/* specific styles */
-
-.navbar {
-    background-color: var(--navColor);
-    color: white;
-}
-
-.logo {
-    font-family: Squada One,"sans-serif";
-    font-size: 40px;
-}
-
-.about {
-    min-height: 300px;
-    transition: 1s;
-}
-
-.about:hover {
-    background-color: var(--secondary);
-}
-
-.about:hover h4 {
-    display: none;
-}
-
-.about:hover p {
-    display: block;
-}
-.portfolio_card {
-    height: 100%;
-}
-
-.portfolio_card:focus {
-    outline: none;
-}
-
-.stacks img {
-    width: 80px;
-}
-
-.stacks .item:focus {
-    outline: none;
-}
-
-.stacks_container .btn:focus {
-    box-shadow: none;
-}
-
-
-/* loader */
-
-body {
-    position: relative;
-    height: 100vh;
-}
-
-#loader {
-    position: absolute;
-    top: 50%; right: 50%;
-    color: var(--secondary)
 }
