@@ -31,12 +31,6 @@ body div#homepage {
     --terciary: #ED8075;
   }
   
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: var(--secondary);
-  }
-  
   #theme_selector{
     height: 0;
     width: 0;

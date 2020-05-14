@@ -97,6 +97,7 @@ body {
 
     .git_kag {
         border-left: solid 1px;
+        padding-left: 32px;
     }
 
     .about:hover h4 {
@@ -150,15 +151,13 @@ body {
         padding-top: 32px;
         padding-bottom: 32px;
     }
-
-    .about_content {
-        background-color: var(--terciary);
-    }
-
+ 
     .about h4 {
         text-align: center;
         background-color: var(--secondary);
         padding: 32px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
     
 }
