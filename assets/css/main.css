@@ -61,14 +61,14 @@ body {
 }
 /* media queries */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
 
-    .portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
+    .portfolio_card_text {
+        height: calc(100% - 190px);
     }
+}
+
+@media only screen and (min-width: 768px) {
 
     .portfolio_card {
         max-width: 332px;
@@ -77,6 +77,10 @@ body {
     
     .portfolio_card_img {
         height: 200px;
+    }
+
+    .portfolio_card_img img {
+        width: 100%;
     }
     
     .portfolio_card_img img:hover {
@@ -90,27 +94,45 @@ body {
     .portfolio_card_text {
         height: calc(100% - 252px);
     }
-    
+  
+    .portfolio_card_footer {
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
     .portfolio_card_footer {
         height: 24px;
     }
 
+    .portfolio_card_img img {
+        width: 100%;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
     .git_kag {
         border-left: solid 1px;
         padding-left: 32px;
     }
-
+    
     .about:hover h4 {
         display: none;
     }
-
+    
     .about h4 {
         position: absolute;
         top: 50%;
         right: 50%;
         transform: translate(50%,-50%);
     }
-
+    
     .about_content {
         color: transparent
     }
@@ -124,28 +146,7 @@ body {
     }
 }
 
-@media screen and (max-width: 991px) {
-
-    .portfolio_card_img {
-        height: 418px;
-    }
-
-    .portfolio_card_text {
-        height: calc(100% - 396px);
-    }
-    
-    .portfolio_card_footer {
-        height: 24px;
-    }
-
-    .portfolio_card_img img {
-        width: 100%;
-    }
-
-    .prev, .next {
-        display: none;
-    }
-
+@media only screen and (max-width: 991px) {
     .git_kag {
         border-top: solid 1px;
         padding-top: 32px;
@@ -159,5 +160,4 @@ body {
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
     }
-    
 }

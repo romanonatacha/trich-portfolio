@@ -141,33 +141,19 @@ body {
 /* typography */
 
 .font-xl {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: min(32px, 7vw);
 }
-
 .font-lg {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: min(28px, 6vw);
 }
-
 .font-md {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: min(24px, 5vw);
 }
-
 .font-sm {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: min(16px, 4vw);
 }
-
 .font-xs {
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.font-xxs {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: min(14px, 3vw);
 }
 
 .bold {
@@ -302,35 +288,10 @@ body {
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
 
     .boxed {
         width: 100%;
-    }
-
-    .font-xl {
-        font-size: 46px;
-        line-height: 50px;
-    }
-
-    .font-lg {
-        font-size: 38px;
-        line-height: 42px;
-    }
-
-    .font-md {
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-    .font-sm {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .font-xs, .font-xxs {
-        font-size: 20px;
-        line-height: 24px;
     }
 
     .mb_hide {

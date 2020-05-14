@@ -82,7 +82,7 @@ def About():
                                     target="_blank"
                                 )
                             )
-                        ], className="about_logos font-xl"),
+                        ], className="about_logos font-lg"),
                         width=12
                     )
 
