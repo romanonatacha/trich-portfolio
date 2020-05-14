@@ -22,11 +22,18 @@ external_scripts = [
     'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'
 ]
 
+meta_tags = [
+    {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1, maximum-scale=1",
+    },
+]
 
 app = dash.Dash(
     __name__,
     external_stylesheets=external_stylesheets,
-    external_scripts=external_scripts
+    external_scripts=external_scripts,
+    meta_tags=meta_tags
 )
 
 server = app.server

@@ -18,7 +18,7 @@ def Navbar():
                                 dbc.FormGroup(
                                     [
                                         dbc.Checkbox(
-                                            id="theme_selector", className="container_toogle"
+                                            id="theme_selector"
                                         ),
                                         dbc.Label(
                                             html_for="theme_selector",
