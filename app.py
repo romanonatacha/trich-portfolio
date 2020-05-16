@@ -36,24 +36,11 @@ app = dash.Dash(
     meta_tags=meta_tags
 )
 
-app.title = "Trich.ai Portfolio"
+app.title = "trich.ai portfolio"
 
 server = app.server
 
 app.layout = Homepage()
-
-
-@app.callback(
-    Output("homepage", "data-theme"),
-    [
-        Input("theme_selector", "checked"),
-    ],
-)
-def on_form_change(checkbox_checked):
-    if checkbox_checked:
-        return "dark"
-    else:
-        return "light"
 
 
 if __name__ == "__main__":
