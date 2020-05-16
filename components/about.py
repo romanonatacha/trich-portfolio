@@ -20,8 +20,6 @@ def About():
                     ], lg=9, sm=12),
                     dbc.Col([
                         dbc.Row([
-                            # dbc.Col("Total", width=12,
-                            #         className="bold uppercase"),
                             dbc.Col([
                                 html.I(className="fab fa-github padding16"),
                                 html.Span("+"),

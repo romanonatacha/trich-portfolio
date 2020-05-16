@@ -46,19 +46,10 @@ body {
     width: 80px;
 }
 
-.stacks .item:focus {
-    outline: none;
+#homepage #trich_carousel .slick-arrow:before{
+    color: var(--secondary);
 }
 
-.stacks_container .btn:focus {
-    box-shadow: none;
-}
-
-#loader {
-    position: absolute;
-    top: 50%; right: 50%;
-    color: var(--secondary)
-}
 /* media queries */
 
 @media only screen and (min-width: 576px) {
