@@ -20,34 +20,32 @@ def About():
                     ], lg=9, sm=12),
                     dbc.Col([
                         dbc.Row([
-                            dbc.Col("Total", width=12,
-                                    className="bold uppercase"),
                             dbc.Col([
-                                html.I(className="fab fa-github padding8"),
+                                html.I(className="fab fa-github padding16"),
                                 html.Span("+"),
-                                html.I(className="fab fa-kaggle padding8")
-                            ], width=12, className="font-lg padding16"),
+                                html.I(className="fab fa-kaggle padding16")
+                            ], width=12, className="font-lg"),
                             dbc.Col([
                                 dbc.Row([
                                     dbc.Col('Followers', lg=6),
                                     dbc.Col(
                                         '3000', className="bold font-md", lg=6),
                                 ]),
-                            ], lg=12, md=4),
+                            ], lg=12, width=4),
                             dbc.Col([
                                 dbc.Row([
                                     dbc.Col('Stars/Votes ', lg=6),
                                     dbc.Col(
                                         '3421', className="bold font-md", lg=6),
                                 ]),
-                            ], lg=12, md=4),
+                            ], lg=12, width=4),
                             dbc.Col([
                                 dbc.Row([
                                     dbc.Col('Forks', lg=6),
                                     dbc.Col(
                                         '6478', className="bold font-md", lg=6),
                                 ]),
-                            ], lg=12, md=4),
+                            ], lg=12, width=4),
                         ], className="text-center")
                     ], className="git_kag", lg=3, sm=12)
                 ]),

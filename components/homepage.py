@@ -19,13 +19,12 @@ body = dbc.Container([
     stacks,
     portfolio,
     # footer
-], className="top32 d_none", id="body_content")
+], className="top32")
 
 
 def Homepage():
     layout = html.Div([
         nav,
-        dbc.Spinner(id="loader"),
         body
     ], id="homepage")
     return layout
