@@ -1,11 +1,19 @@
 body {
     position: relative;
     height: 100vh;
+    background: var(--primaryBg);
+    color: var(--default);
+    height: auto;
 }
 
 .navbar {
     background-color: var(--navColor);
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .logo {
@@ -42,8 +50,16 @@ body {
     outline: none;
 }
 
+.stacks {
+    height: 180px;
+}
+
 .stacks img {
     width: 80px;
+}
+
+#homepage {
+    padding-top: 86px;
 }
 
 #homepage #trich_carousel .slick-arrow:before{
@@ -83,7 +99,7 @@ body {
         filter: drop-shadow(2px 4px 6px rgb(143, 143, 143));
     }
     
-    #homepage[data-theme='dark'] .portfolio_card:hover {
+    html[data-theme='dark'] .portfolio_card:hover {
         filter: drop-shadow(2px 4px 6px black);
     }
     
