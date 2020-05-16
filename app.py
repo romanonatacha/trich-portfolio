@@ -36,6 +36,8 @@ app = dash.Dash(
     meta_tags=meta_tags
 )
 
+app.title = "Trich.ai Portfolio"
+
 server = app.server
 
 app.layout = Homepage()
