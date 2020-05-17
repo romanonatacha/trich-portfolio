@@ -18,7 +18,7 @@ body = dbc.Container([
     about,
     stacks,
     portfolio,
-    # footer
+    footer
 ], className="top32")
 
 
