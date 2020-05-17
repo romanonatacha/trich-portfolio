@@ -8,6 +8,7 @@ body {
 
 .navbar {
     background-color: var(--navColor);
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
     color: white;
     position: fixed;
     top: 0;
@@ -42,6 +43,10 @@ body {
     color: var(--primary);
 }
 
+.portfolio {
+    margin: 0;
+}
+
 .portfolio_card {
     height: 100%;
 }
@@ -56,6 +61,10 @@ body {
 
 .stacks img {
     width: 80px;
+}
+
+.footer .row {
+    align-items: center;
 }
 
 #homepage {
@@ -171,5 +180,9 @@ body {
         padding: 32px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+    }
+
+    .footer ul {
+        padding-top: 16px;
     }
 }

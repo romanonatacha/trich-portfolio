@@ -1,10 +1,19 @@
 /* reset css */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 a, a:hover {
     text-decoration: none;
     color: unset;
 }
 
+ul {
+    margin: 0;
+}
 
 li {
     list-style: none;
@@ -191,6 +200,10 @@ body {
 }
 
 /* spacing */
+
+.padding4 {
+    padding: 4px;
+}
 
 .padding8 {
     padding: 8px;
