@@ -2,72 +2,86 @@ portfolio_data = [
     {
         'image': '../assets/images/covid.png',
         'title': 'COVID-19',
-        'description': '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
+        'description': "It's an COVID-19 project where I have built a cool Dashboard to show the data, and also, embeded a prediction system inside of it. The app update automatically and is responsive for different screens size.",
         'link': 'https://trich-coronavirus.herokuapp.com/',
-        'git': 'link',
+        'git': 'https://github.com/kaburelabs/Covid-19-Dash',
         'badge': [
-            'Python',
             'Dash',
-            'Plotly'
+            'ML/Regression',
+            'Dashboard'
         ]
     },
     {
         'image': '../assets/images/flumeter.png',
         'title': 'FluMeter App',
-        'description': 'laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'description': "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
         'link': 'https://nikolay-flumeter.herokuapp.com/',
-        'git': 'link',
+        'git': '#',
         'badge': [
-            'Python',
             'Dash',
-            'CSS'
+            'ML/Regression',
+            'Geolocator',
         ]
     },
     {
         'image': '../assets/images/wine.png',
         'title': 'Wine Recommender System',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco',
+        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
         'link': 'https://wine-app-recommender.herokuapp.com/',
-        'git': 'link',
+        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
         'badge': [
-            'Python',
-            'JS',
-            'Plotly'
+            'NLP',
+            # 'Dash',
+            'Recommendation',
+            'Kmeans'
         ]
     },
     {
         'image': '../assets/images/churn.png',
         'title': 'Customer Churn WebAPP',
-        'description': 'niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non',
+        'description': "Churn Customer was the first webapp built by trich.ai. It is based on a Telco company, with cool and insightful data viz where you can predict if a customer will or not left your services.",
         'link': 'https://trich-churncustomer.herokuapp.com/',
-        'git': 'link',
+        'git': 'https://github.com/kaburelabs/Dash-app-Churn-Customer',
         'badge': [
-            'Python',
+            'ML/Classification',
             'Dash',
-            'Plotly'
+            'Data Viz'
         ]
     },
     {
         'image': '../assets/images/runsql.png',
         'title': 'Large Dataset Query UI',
-        'description': 'roident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'description': "This app is a interface to querying large datasets in a context of Project Management. It uses pyspark on the backend and you can add new queries for specific project and dates;",
         'link': 'https://crud-sparksql.herokuapp.com/',
-        'git': 'link',
+        'git': 'https://github.com/kaburelabs/dash-noah',
         'badge': [
-            'Dash',
-            'Plotly'
+            'PySpark',
+            'Query',
+            'Data Viz'
         ]
     },
     {
         'image': '../assets/images/twitter.png',
         'title': 'Twitter Live monitor',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+        'description': "This project is a live streaming from Twitter API; It can monitor different hashtags and get many different metrics from twitter activities for brands, users, influencers and trends.",
         'link': 'https://bbb-twitter-monitor.herokuapp.com/',
-        'git': 'link',
+        'git': 'https://github.com/kaburelabs/bbb-twitter-monitor',
         'badge': [
-            'Python',
+            'TwitterAPI',
+            'Clustering',
+            'Streaming'
+        ]
+    },
+    {
+        'image': '../assets/images/portfolio.png',
+        'title': 'Trich Portfolio',
+        'description': "Our portfolio webapp have an open-source code too. It's an implementation of some dash trich components library like the dark-theme switcher, the cards and more, also with a cool UI and CSS application;",
+        'link': 'https://trich-portfolio.herokuapp.com/',
+        'git': 'https://github.com/romanonatacha/trich-portfolio',
+        'badge': [
             'CSS',
-            'Plotly'
+            'UI/UX',
+            'Web Development',
         ]
     }
 ]

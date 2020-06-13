@@ -12,8 +12,10 @@ def About():
             html.Div([
                 dbc.Row([
                     dbc.Col([
-                        html.Div(
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                        html.Div([
+                            "trich.ai is a company founded by the Data Scientist and Kaggle Grandmaster, Leonardo Ferreira vising to build an interdisciplinary company to do consulting, build data web apps to clients, and launch own products;\
+                                On trich.ai we have already built solutions for some of the biggest companies around the world, building creative and profitable results to our clients. We mainly focus on open-source solutions.", html.Br(), html.Br(),
+                            "Visit our GitHub to get the code of all platforms, we believe that together, we can go furthest."],
                             className="font-sm",
                         ),
                         html.Div(className="bottom32 dt_hide"),
@@ -29,21 +31,21 @@ def About():
                                 dbc.Row([
                                     dbc.Col('Followers', lg=6),
                                     dbc.Col(
-                                        '3000', className="bold font-md", lg=6),
+                                        '2k+', className="bold font-md", lg=6),
                                 ]),
                             ], lg=12, width=4),
                             dbc.Col([
                                 dbc.Row([
                                     dbc.Col('Stars/Votes ', lg=6),
                                     dbc.Col(
-                                        '3421', className="bold font-md", lg=6),
+                                        '5k+', className="bold font-md", lg=6),
                                 ]),
                             ], lg=12, width=4),
                             dbc.Col([
                                 dbc.Row([
                                     dbc.Col('Forks', lg=6),
                                     dbc.Col(
-                                        '6478', className="bold font-md", lg=6),
+                                        '6k+', className="bold font-md", lg=6),
                                 ]),
                             ], lg=12, width=4),
                         ], className="text-center")
