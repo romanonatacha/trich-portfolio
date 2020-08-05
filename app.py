@@ -46,6 +46,7 @@ app.index_string = """<!DOCTYPE html>
         <title>{%title%}</title>
         {%favicon%}
         {%css%}
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e9606b2a034e50012b52e4a&product=sop' async='async'></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DYNFQVF7N"></script>
         <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="shfZKbL" data-description="Help to keep building web apps for free;" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#FF813F" data-position="" data-x_margin="50" data-y_margin="25"></script>
         </head>
