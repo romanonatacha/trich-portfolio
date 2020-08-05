@@ -11,29 +11,17 @@ portfolio_data = [
             'Dashboard'
         ]
     },
+
     {
-        'image': '../assets/images/flumeter.png',
-        'title': 'FluMeter App',
-        'description': "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
-        'link': 'https://nikolay-flumeter.herokuapp.com/',
+        'image': '../assets/images/customer-segment.png',
+        'title': 'RFM Customer Segmentation',
+        'description': "Customer segmentation is a very valuable technique that can be applied to business to detect different customer patterns and ",
+        'link': 'https://raghu-bank-segmentation.herokuapp.com/',
         'git': '#',
         'badge': [
-            'Dash',
-            'ML/Regression',
-            'Geolocator',
-        ]
-    },
-    {
-        'image': '../assets/images/wine.png',
-        'title': 'Wine Recommender System',
-        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
-        'link': 'https://wine-app-recommender.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
-        'badge': [
-            'NLP',
-            # 'Dash',
-            'Recommendation',
-            'Kmeans'
+            'Marketing',
+            'Dashboard',
+            'ML'
         ]
     },
     {
@@ -48,16 +36,18 @@ portfolio_data = [
             'Data Viz'
         ]
     },
+
     {
-        'image': '../assets/images/runsql.png',
-        'title': 'Large Dataset Query UI',
-        'description': "This app is a interface to querying large datasets in a context of Project Management. It uses pyspark on the backend and you can add new queries for specific project and dates;",
-        'link': 'https://crud-sparksql.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/dash-noah',
+        'image': '../assets/images/wine.png',
+        'title': 'Wine Recommender System',
+        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
+        'link': 'https://wine-app-recommender.herokuapp.com/',
+        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
         'badge': [
-            'PySpark',
-            'Query',
-            'Data Viz'
+            'NLP',
+            # 'Dash',
+            'Recommendation',
+            'Kmeans'
         ]
     },
     {
@@ -72,6 +62,43 @@ portfolio_data = [
             'Streaming'
         ]
     },
+    {
+        'image': '../assets/images/marketing-simple-app.png',
+        'title': 'Marketing Dashboard',
+        'description': "It's a simple Marketing app to test the dynamic functions on the app. When you select something it will filter all the application.",
+        'link': 'https://marketing-app-hakeem.herokuapp.com/',
+        'git': '#',
+        'badge': [
+            'Dash',
+            'Segmentation',
+            'Visualizations',
+        ]
+    },
+    {
+        'image': '../assets/images/flumeter.png',
+        'title': 'FluMeter App',
+        'description': "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
+        'link': 'https://nikolay-flumeter.herokuapp.com/',
+        'git': '#',
+        'badge': [
+            'Dash',
+            'ML/Regression',
+            'Geolocator',
+        ]
+    },
+    {
+        'image': '../assets/images/runsql.png',
+        'title': 'Large Dataset Query UI',
+        'description': "This app is a interface to querying large datasets in a context of Project Management. It uses pyspark on the backend and you can add new queries for specific project and dates;",
+        'link': 'https://crud-sparksql.herokuapp.com/',
+        'git': 'https://github.com/kaburelabs/dash-noah',
+        'badge': [
+            'PySpark',
+            'Query',
+            'Data Viz'
+        ]
+    },
+
     {
         'image': '../assets/images/portfolio.png',
         'title': 'Trich Portfolio',
