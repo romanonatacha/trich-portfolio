@@ -1,16 +1,5 @@
 portfolio_data = [
-    {
-        'image': '../assets/images/covid.png',
-        'title': 'COVID-19',
-        'description': "It's an COVID-19 project where I have built a cool Dashboard to show the data, and also, embeded a prediction system inside of it. The app update automatically and is responsive for different screens size.",
-        'link': 'https://trich-coronavirus.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Covid-19-Dash',
-        'badge': [
-            'Dash',
-            'ML/Regression',
-            'Dashboard'
-        ]
-    },
+
 
     {
         'image': '../assets/images/customer-segment.png',
@@ -22,6 +11,19 @@ portfolio_data = [
             'Marketing',
             'Dashboard',
             'ML'
+        ]
+    },
+    {
+        'image': '../assets/images/wine.png',
+        'title': 'Wine Recommender System',
+        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
+        'link': 'https://wine-app-recommender.herokuapp.com/',
+        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
+        'badge': [
+            'NLP',
+            # 'Dash',
+            'Recommendation',
+            'Kmeans'
         ]
     },
     {
@@ -38,19 +40,6 @@ portfolio_data = [
     },
 
     {
-        'image': '../assets/images/wine.png',
-        'title': 'Wine Recommender System',
-        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
-        'link': 'https://wine-app-recommender.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
-        'badge': [
-            'NLP',
-            # 'Dash',
-            'Recommendation',
-            'Kmeans'
-        ]
-    },
-    {
         'image': '../assets/images/twitter.png',
         'title': 'Twitter Live monitor',
         'description': "This project is a live streaming from Twitter API; It can monitor different hashtags and get many different metrics from twitter activities for brands, users, influencers and trends.",
@@ -60,6 +49,19 @@ portfolio_data = [
             'TwitterAPI',
             'Clustering',
             'Streaming'
+        ]
+    },
+
+    {
+        'image': '../assets/images/covid.png',
+        'title': 'COVID-19',
+        'description': "It's an COVID-19 project where I have built a cool Dashboard to show the data, and also, embeded a prediction system inside of it. The app update automatically and is responsive for different screens size.",
+        'link': 'https://trich-coronavirus.herokuapp.com/',
+        'git': 'https://github.com/kaburelabs/Covid-19-Dash',
+        'badge': [
+            'Dash',
+            'ML/Regression',
+            'Dashboard'
         ]
     },
     {
