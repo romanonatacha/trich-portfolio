@@ -1,10 +1,32 @@
 portfolio_data = [
-
-
+    {
+        'image': '../assets/images/spacebudz1.png',
+        'title': 'Cardano - NFT SpaceBudz',
+        'description': "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
+        'link': 'https://spacebudz-analytics.herokuapp.com',
+        'git': '#',
+        'badge': [
+            'Blockchain',
+            'NFT',
+            'Stats', "DataViz"
+        ]
+    },    
+    {
+        'image': '../assets/images/singlearity-baseball.png',
+        'title': 'SINGLEARITY - BASEBALL ANALYTICS',
+        'description': "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
+        'link': 'https://dash.singlearity.com/static',
+        'git': '#',
+        'badge': [
+            'DataViz',
+            'Baseball',
+            'Stats', "ML"
+        ]
+    },    
     {
         'image': '../assets/images/customer-segment.png',
         'title': 'RFM Customer Segmentation',
-        'description': "Customer segmentation is a very valuable technique that can be applied to business to detect different customer patterns and ",
+        'description': "It's an app that allow users to get statistics from the baseball players with animation charts.",
         'link': 'https://raghu-bank-segmentation.herokuapp.com/',
         'git': '#',
         'badge': [
