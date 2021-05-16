@@ -1,5 +1,17 @@
 portfolio_data = [
     {
+        'image': '../assets/images/nft-monitor-twitter2.gif',
+        'title': 'Cardano NFT projects Monitor',
+        'description': "This app monitor and track twitter followers of almost all NFT projects on the Cardano Blockchain.",
+        'link': 'https://cardanonfts.trich.ai/projects/',
+        'git': '#',
+        'badge': [
+            'Blockchain',
+            'NFT',
+            'Twitter', "Engineering"
+        ]
+    },       
+    {
         'image': '../assets/images/spacebudz1.png',
         'title': 'Cardano - NFT SpaceBudz',
         'description': "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
