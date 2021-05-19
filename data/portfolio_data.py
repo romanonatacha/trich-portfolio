@@ -3,7 +3,7 @@ portfolio_data = [
         'image': '../assets/images/nft-monitor-twitter2.gif',
         'title': 'Cardano NFT projects Monitor',
         'description': "This app monitor and track twitter followers of almost all NFT projects on the Cardano Blockchain.",
-        'link': 'https://cardanonfts.trich.ai/projects/',
+        'link': 'https://cardanonfts.trich.ai/',
         'git': '#',
         'badge': [
             'Blockchain',

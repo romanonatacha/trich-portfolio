@@ -9,7 +9,6 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input
 from components.homepage import Homepage
 
-
 external_stylesheets = [
     dbc.themes.BOOTSTRAP,
     'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
