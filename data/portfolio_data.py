@@ -1,5 +1,29 @@
 portfolio_data = [
     {
+        'image': '../assets/images/IBM2.png',
+        'title': 'Churn xplanable AI',
+        'description': "This app uses IBM data too but it has a explanable AI model implemented",
+        'link': 'https://plotly-churn-app.herokuapp.com/',
+        'git': 'https://github.com/kaburelabs/plotly-churn-app',
+        'badge': [
+            'Plotly',
+            'Churn',
+            'Eli5', "Engineering"
+        ]
+    },       
+    {
+        'image': '../assets/images/trich-coin.png',
+        'title': 'Native assets & NFT mint',
+        'description': "We are specialists in minting assets on Cardano Blockchain. Native Assets & NFTs.",
+        'link': 'https://pool.pm/dc3cf852aebe652cfa7435149f79bdf3a222aa892988f6a92b8d136a.Trich%20Coin',
+        'git': '#',
+        'badge': [
+            'cardano',
+            'nft',
+            'native asset', "mint"
+        ]
+    },  
+    {
         'image': '../assets/images/nft-monitor-twitter2.gif',
         'title': 'Cardano NFT projects Monitor',
         'description': "This app monitor and track twitter followers of almost all NFT projects on the Cardano Blockchain.",
@@ -22,7 +46,19 @@ portfolio_data = [
             'NFT',
             'Stats', "DataViz"
         ]
-    },    
+    },      
+    {
+        'image': '../assets/images/ship-detection.png',
+        'title': 'Ship Detection web app',
+        'description': "This app uses IBM data too but it has a explanable AI model implemented",
+        'link': 'https://github.com/kaburelabs/ship-detection-webapp',
+        'git': 'https://github.com/kaburelabs/ship-detection-webapp',
+        'badge': [
+            'Pytorch',
+            'AI',
+            'Big data', "Engineering"
+        ]
+    },  
     {
         'image': '../assets/images/singlearity-baseball.png',
         'title': 'SINGLEARITY - BASEBALL ANALYTICS',
@@ -72,7 +108,6 @@ portfolio_data = [
             'Data Viz'
         ]
     },
-
     {
         'image': '../assets/images/twitter.png',
         'title': 'Twitter Live monitor',
