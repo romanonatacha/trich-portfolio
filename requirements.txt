@@ -17,7 +17,7 @@ htexpr==0.0.5
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-numpy==1.18.4
+numpy==1.22.0
 pandas==1.0.3
 parsimonious==0.8.1
 plotly==4.7.0
