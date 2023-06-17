@@ -13,17 +13,9 @@ portfolio = Portfolio()
 stacks = Stacks()
 footer = Footer()
 
-body = dbc.Container([
-    about,
-    stacks,
-    portfolio,
-    footer
-], className="top32")
+body = dbc.Container([about, stacks, portfolio, footer], className="top32")
 
 
 def Homepage():
-    layout = html.Div([
-        nav,
-        body
-    ], id="homepage")
+    layout = html.Div([nav, body], id="homepage")
     return layout

@@ -1,7 +1,7 @@
 /* http://paletton.com/#uid=33k0s0kkOp0aRCCgftHo-l7tzg5 */
 
 
-:root {  
+:root[data-theme='dark'] {  
     --primaryBg: #fff;
     --secondaryBg: #f5f5f5;
     --navColor: #2B7279;
@@ -12,7 +12,7 @@
     --terciary: #C75246;
   }
   
-  :root[data-theme='dark'] {
+  :root {
     --primaryBg: #232323;
     --secondaryBg: #333;
     --navColor: #333;

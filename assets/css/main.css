@@ -92,7 +92,7 @@ body {
     }
     
     .portfolio_card_img {
-        height: 200px;
+        height: 175px;
     }
 
     .portfolio_card_img img {
@@ -113,7 +113,7 @@ body {
     }
     
     .portfolio_card_text {
-        height: calc(100% - 252px);
+        height: calc(100% - 230px);
     }
   
     .portfolio_card_footer {

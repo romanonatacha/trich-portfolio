@@ -5,9 +5,22 @@ from data.portfolio_data import portfolio_data
 
 
 def Portfolio():
-    portfolio = html.Div([
-        dbc.Row([
-            Card(i['image'], i['title'], i['description'], i['link'], i['badge'], i['git']) for i in portfolio_data
-        ], className="portfolio")
-    ])
+    portfolio = html.Div(
+        [
+            dbc.Row(
+                [
+                    Card(
+                        i["image"],
+                        i["title"],
+                        i["description"],
+                        i["link"],
+                        i["badge"],
+                        i["git"],
+                    )
+                    for i in portfolio_data
+                ],
+                className="portfolio",
+            )
+        ]
+    )
     return portfolio

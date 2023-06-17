@@ -1,195 +1,150 @@
 portfolio_data = [
     {
-        'image': '../assets/images/IBM2.png',
-        'title': 'Churn xplanable AI',
-        'description': "This app uses IBM data too but it has a explanable AI model implemented",
-        'link': 'https://plotly-churn-app.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/plotly-churn-app',
-        'badge': [
-            'Plotly',
-            'Churn',
-            'Eli5', "Engineering"
-        ]
-    },       
-    {
-        'image': '../assets/images/portfolio.png',
-        'title': 'Trich Portfolio',
-        'description': "Our portfolio webapp have an open-source code too. It's an implementation of some dash trich components library like the dark-theme switcher, the cards and more, also with a cool UI and CSS application; (this one you're visiting)",
-        'link': 'https://github.com/romanonatacha/trich-portfolio',
-        'git': 'https://github.com/romanonatacha/trich-portfolio',
-        'badge': [
-            'CSS',
-            'UI/UX',
-            'Web Development',
-        ]
+        "image": "../assets/images/IBM2.png",
+        "title": "Churn xplanable AI",
+        "description": "This app uses IBM data too but it has a explanable AI model implemented",
+        "link": "https://plotly-churn-app.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/plotly-churn-app",
+        "badge": ["Plotly", "Churn", "Eli5", "ML"],
     },
     {
-        'image': '../assets/images/nft-monitor-twitter2.gif',
-        'title': 'Cardano NFT projects Monitor',
-        'description': "This app monitor and track twitter followers of almost all NFT projects on the Cardano Blockchain.",
-        'link': 'https://cardanonfts.trich.ai/',
-        'git': '#',
-        'badge': [
-            'Blockchain',
-            'NFT',
-            'Twitter', "Engineering"
-        ]
-    },       
-    {
-        'image': '../assets/images/singlearity-baseball.png',
-        'title': 'SINGLEARITY - BASEBALL ANALYTICS',
-        'description': "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
-        'link': 'https://dash.singlearity.com/static',
-        'git': '#',
-        'badge': [
-            'DataViz',
-            'Baseball',
-            'Stats', "ML"
-        ]
-    },    
-    {
-        'image': '../assets/images/customer-segment.png',
-        'title': 'RFM Customer Segmentation',
-        'description': "It's an app that allow users to get statistics from the baseball players with animation charts.",
-        'link': 'https://raghu-bank-segmentation.herokuapp.com/',
-        'git': '#',
-        'badge': [
-            'Marketing',
-            'Dashboard',
-            'ML'
-        ]},
-    {
-        'image': '../assets/images/covid.png',
-        'title': 'COVID-19',
-        'description': "It's an COVID-19 project where I have built a cool Dashboard to show the data, and also, embeded a prediction system inside of it. The app update automatically and is responsive for different screens size.",
-        'link': 'https://trich-coronavirus.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Covid-19-Dash',
-        'badge': [
-            'Dash',
-            'ML/Regression',
-            'Dashboard'
-        ]
+        "image": "../assets/images/portfolio.png",
+        "title": "Trich Portfolio",
+        "description": "Our portfolio webapp have an open-source code too. It's an implementation of some dash trich components library like the dark-theme switcher, the cards and more, also with a cool UI and CSS application; (this one you're visiting)",
+        "link": "https://github.com/romanonatacha/trich-portfolio",
+        "git": "https://github.com/romanonatacha/trich-portfolio",
+        "badge": [
+            "CSS",
+            "UI/UX",
+            "Web Dev",
+        ],
     },
     {
-        'image': '../assets/images/wine.png',
-        'title': 'Wine Recommender System',
-        'description': 'This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic visualizations with an interesting UI;',
-        'link': 'https://wine-app-recommender.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Wine-Project-Dash',
-        'badge': [
-            'NLP',
-            'Recommendation',
-            'Kmeans'
-        ]
+        "image": "../assets/images/nft-monitor-twitter2.gif",
+        "title": "Cardano NFT projects Monitor",
+        "description": "This app monitor and track twitter followers of almost all NFT projects on the Cardano Blockchain.",
+        "link": "https://cardanonfts.trich.ai/",
+        "git": "#",
+        "badge": ["Blockchain", "NFT", "Twitter", "Eng."],
     },
     {
-        'image': '../assets/images/spacebudz1.png',
-        'title': 'Cardano - NFT SpaceBudz',
-        'description': "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
-        'link': 'https://spacebudz-analytics.herokuapp.com',
-        'git': '#',
-        'badge': [
-            'Blockchain',
-            'NFT',
-            'Stats', "DataViz"
-        ]
-    },      
-    {
-        'image': '../assets/images/churn.png',
-        'title': 'Customer Churn WebAPP',
-        'description': "Churn Customer was the first webapp built by trich.ai. It is based on a Telco company, with cool and insightful data viz where you can predict if a customer will or not left your services.",
-        'link': 'https://trich-churncustomer.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/Dash-app-Churn-Customer',
-        'badge': [
-            'ML/Classification',
-            'Dash',
-            'Data Viz'
-        ]
+        "image": "../assets/images/singlearity-baseball.png",
+        "title": "SINGLEARITY - BASEBALL ANALYTICS",
+        "description": "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
+        "link": "https://dash.singlearity.com/static",
+        "git": "#",
+        "badge": ["Data Viz", "Baseball", "Stats", "ML"],
     },
     {
-        'image': '../assets/images/trich-coin.png',
-        'title': 'Native assets & NFT mint',
-        'description': "We are specialists in minting assets on Cardano Blockchain. Native Assets & NFTs.",
-        'link': 'https://pool.pm/dc3cf852aebe652cfa7435149f79bdf3a222aa892988f6a92b8d136a.Trich%20Coin',
-        'git': '#',
-        'badge': [
-            'cardano',
-            'nft',
-            'native asset', "mint"
-        ]
-    },  
-    {
-        'image': '../assets/images/ship-detection.png',
-        'title': 'Ship Detection web app',
-        'description': "This app uses IBM data too but it has a explanable AI model implemented",
-        'link': 'https://github.com/kaburelabs/ship-detection-webapp',
-        'git': 'https://github.com/kaburelabs/ship-detection-webapp',
-        'badge': [
-            'Pytorch',
-            'AI',
-            'Big data', "Engineering"
-        ]
-    },  
-    {
-        'image': '../assets/images/marketing-simple-app.png',
-        'title': 'Marketing Dashboard',
-        'description': "It's a simple Marketing app to test the dynamic functions on the app. When you select something it will filter all the application.",
-        'link': 'https://marketing-app-hakeem.herokuapp.com/',
-        'git': '#',
-        'badge': [
-            'Dash',
-            'Segmentation',
-            'Visualizations',
-        ]
+        "image": "../assets/images/customer-segment.png",
+        "title": "RFM Customer Segmentation",
+        "description": "It's an app that allow users to get statistics from the baseball players with animation charts.",
+        "link": "https://raghu-bank-segmentation.herokuapp.com/",
+        "git": "#",
+        "badge": ["Marketing", "Dashboard", "ML"],
     },
     {
-        'image': '../assets/images/twitter.png',
-        'title': 'Twitter Live monitor',
-        'description': "This project is a live streaming from Twitter API; It can monitor different hashtags and get many different metrics from twitter activities for brands, users, influencers and trends.",
-        'link': 'https://bbb-twitter-monitor.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/bbb-twitter-monitor',
-        'badge': [
-            'TwitterAPI',
-            'Clustering',
-            'Streaming'
-        ]
+        "image": "../assets/images/covid.png",
+        "title": "COVID-19",
+        "description": "It's an COVID-19 project where I have built a cool Dashboard to show the data, and also, embeded a prediction system inside of it. The app update automatically and is responsive for different screens size.",
+        "link": "https://trich-coronavirus.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/Covid-19-Dash",
+        "badge": ["Dash", "ML/Regression", "Dashboard"],
     },
     {
-        'image': '../assets/images/flumeter.png',
-        'title': 'FluMeter App',
-        'description': "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
-        'link': 'https://nikolay-flumeter.herokuapp.com/',
-        'git': '#',
-        'badge': [
-            'Dash',
-            'ML/Regression',
-            'Geolocator',
-        ]
+        "image": "../assets/images/wine.png",
+        "title": "Wine Recommender System",
+        "description": "This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic Data Viz with an interesting UI;",
+        "link": "https://wine-app-recommender.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/Wine-Project-Dash",
+        "badge": ["NLP", "Recommendation", "Kmeans"],
     },
     {
-        'image': '../assets/images/runsql.png',
-        'title': 'Large Dataset Query UI',
-        'description': "This app is a interface to querying large datasets in a context of Project Management. It uses pyspark on the backend and you can add new queries for specific project and dates;",
-        'link': 'https://crud-sparksql.herokuapp.com/',
-        'git': 'https://github.com/kaburelabs/dash-noah',
-        'badge': [
-            'PySpark',
-            'Query',
-            'Data Viz'
-        ]
+        "image": "../assets/images/spacebudz1.png",
+        "title": "Cardano - NFT SpaceBudz",
+        "description": "This app was built to better understand the distribution of rarity of first NFT project on the Cardano Blockchain.",
+        "link": "https://spacebudz-analytics.herokuapp.com",
+        "git": "#",
+        "badge": ["Blockchain", "NFT", "Stats", "Data Viz"],
     },
     {
-        'image': '../assets/images/swagger-docs.png',
-        'title': 'FastAPI - complete flow api',
-        'description': "This app is the backend that collects twitter data of a bunch of nft projects in the Cardano ecosystem.",
-        'link': 'https://fastapi-hrk.herokuapp.com/docs/',
-        'git': 'https://github.com/kaburelabs/twitter-monitor-fastapi',
-        'badge': [
-            'fastapi',
-            'cardano',
-            'twitter'
-        ]
+        "image": "../assets/images/churn.png",
+        "title": "Customer Churn WebAPP",
+        "description": "Churn Customer was the first webapp built by trich.ai. It is based on a Telco company, with cool and insightful data viz where you can predict if a customer will or not left your services.",
+        "link": "https://trich-churncustomer.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/Dash-app-Churn-Customer",
+        "badge": ["ML/Classification", "Dash", "Data Viz"],
     },
-    
-    
+    {
+        "image": "../assets/images/trich-coin.png",
+        "title": "Native assets & NFT mint",
+        "description": "We are specialists in minting assets on Cardano Blockchain. Native Assets & NFTs.",
+        "link": "https://pool.pm/dc3cf852aebe652cfa7435149f79bdf3a222aa892988f6a92b8d136a.Trich%20Coin",
+        "git": "#",
+        "badge": ["cardano", "nft", "native asset", "mint"],
+    },
+    {
+        "image": "../assets/images/ship-detection.png",
+        "title": "Ship Detection web app",
+        "description": "This app uses IBM data too but it has a explanable AI model implemented",
+        "link": "https://github.com/kaburelabs/ship-detection-webapp",
+        "git": "https://github.com/kaburelabs/ship-detection-webapp",
+        "badge": ["Pytorch", "AI", "Big data", "Engineer"],
+    },
+    {
+        "image": "../assets/images/marketing-simple-app.png",
+        "title": "Marketing Dashboard",
+        "description": "It's a simple Marketing app to test the dynamic functions on the app. When you select something it will filter all the application.",
+        "link": "https://marketing-app-hakeem.herokuapp.com/",
+        "git": "#",
+        "badge": [
+            "Dash",
+            "Segmentation",
+            "Data Viz",
+        ],
+    },
+    {
+        "image": "../assets/images/flumeter.png",
+        "title": "FluMeter App",
+        "description": "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
+        "link": "https://nikolay-flumeter.herokuapp.com/",
+        "git": "#",
+        "badge": [
+            "Dash",
+            "ML/Regression",
+            "Geolocator",
+        ],
+    },
+    {
+        "image": "../assets/images/runsql.png",
+        "title": "Large Dataset Query UI",
+        "description": "This app is a interface to querying large datasets in a context of Project Management. It uses pyspark on the backend and you can add new queries for specific project and dates;",
+        "link": "https://crud-sparksql.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/dash-noah",
+        "badge": ["PySpark", "Query", "Data Viz"],
+    },
+    {
+        "image": "../assets/images/swagger-docs.png",
+        "title": "FastAPI - complete flow api",
+        "description": "This app is the backend that collects twitter data of a bunch of nft projects in the Cardano ecosystem.",
+        "link": "https://fastapi-hrk.herokuapp.com/docs/",
+        "git": "https://github.com/kaburelabs/twitter-monitor-fastapi",
+        "badge": ["fastapi", "cardano", "twitter"],
+    },
+    {
+        "image": "../assets/images/twitter.png",
+        "title": "Twitter Live monitor",
+        "description": "This project is a live streaming from Twitter API; It can monitor different hashtags and get many different metrics from twitter activities for brands, users, influencers and trends.",
+        "link": "https://bbb-twitter-monitor.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/bbb-twitter-monitor",
+        "badge": ["TwitterAPI", "Clustering", "Streaming"],
+    },
+    {
+        "image": "../assets/images/swagger-docs.png",
+        "title": "Dash Trich Components",
+        "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
+        "link": "https://romanonatacha.github.io/dash_trich_components/",
+        "git": "https://github.com/romanonatacha/dash_trich_components",
+        "badge": ["react.js", "dash", "convert", "library"],
+    },
 ]
