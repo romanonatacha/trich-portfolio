@@ -1,13 +1,5 @@
 portfolio_data = [
     {
-        "image": "../assets/images/IBM2.png",
-        "title": "Churn xplanable AI",
-        "description": "This app uses IBM data too but it has a explanable AI model implemented",
-        "link": "https://plotly-churn-app.herokuapp.com/",
-        "git": "https://github.com/kaburelabs/plotly-churn-app",
-        "badge": ["Plotly", "Churn", "Eli5", "ML"],
-    },
-    {
         "image": "../assets/images/portfolio.png",
         "title": "Trich Portfolio",
         "description": "Our portfolio webapp have an open-source code too. It's an implementation of some dash trich components library like the dark-theme switcher, the cards and more, also with a cool UI and CSS application; (this one you're visiting)",
@@ -36,6 +28,14 @@ portfolio_data = [
         "badge": ["Data Viz", "Baseball", "Stats", "ML"],
     },
     {
+        "image": "../assets/images/get-ahead-small.png",
+        "title": "Mental Health NLP App",
+        "description": "Dash app that uses a API to generate the views and all dynamic regarding a user and service provider.",
+        "link": "https://getahead2.herokuapp.com/app/nlp/",
+        "git": "#",
+        "badge": ["NLP", "Data Viz", "Mental Health"],
+    },
+    {
         "image": "../assets/images/customer-segment.png",
         "title": "RFM Customer Segmentation",
         "description": "It's an app that allow users to get statistics from the baseball players with animation charts.",
@@ -50,6 +50,14 @@ portfolio_data = [
         "link": "https://trich-coronavirus.herokuapp.com/",
         "git": "https://github.com/kaburelabs/Covid-19-Dash",
         "badge": ["Dash", "ML/Regression", "Dashboard"],
+    },
+    {
+        "image": "../assets/images/IBM2.png",
+        "title": "Churn xplanable AI",
+        "description": "This app uses IBM data too but it has a explanable AI model implemented",
+        "link": "https://plotly-churn-app.herokuapp.com/",
+        "git": "https://github.com/kaburelabs/plotly-churn-app",
+        "badge": ["Plotly", "Churn", "Eli5", "ML"],
     },
     {
         "image": "../assets/images/wine.png",
@@ -74,6 +82,14 @@ portfolio_data = [
         "link": "https://trich-churncustomer.herokuapp.com/",
         "git": "https://github.com/kaburelabs/Dash-app-Churn-Customer",
         "badge": ["ML/Classification", "Dash", "Data Viz"],
+    },
+    {
+        "image": "../assets/images/alphonse.png",
+        "title": "Labor & Wage Management",
+        "description": "App built using Dash to manage the labor and wage of a company. It has a lot of cool features like: CRUD, Data Viz, PDF export, etc.",
+        "link": "https://alphonse-app.herokuapp.com/",
+        "git": "#",
+        "badge": ["construction", "price", "management"],
     },
     {
         "image": "../assets/images/trich-coin.png",
