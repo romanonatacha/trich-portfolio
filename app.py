@@ -3,10 +3,8 @@ import pandas as pd
 
 # Dash
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html, Output, Input, State
 import dash_bootstrap_components as dbc
-from dash.dependencies import Output, Input
 from components.homepage import Homepage
 
 external_stylesheets = [
