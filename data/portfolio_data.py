@@ -27,14 +27,7 @@ portfolio_data = [
         "git": "#",
         "badge": ["Data Viz", "Baseball", "Stats", "ML"],
     },
-    {
-        "image": "../assets/images/get-ahead-small.png",
-        "title": "Mental Health NLP App",
-        "description": "Dash app that uses a API to generate the views and all dynamic regarding a user and service provider.",
-        "link": "https://getahead2.herokuapp.com/app/nlp/",
-        "git": "#",
-        "badge": ["NLP", "Data Viz", "Mental Health"],
-    },
+
     {
         "image": "../assets/images/customer-segment.png",
         "title": "RFM Customer Segmentation",
@@ -51,6 +44,22 @@ portfolio_data = [
         "git": "https://github.com/kaburelabs/Covid-19-Dash",
         "badge": ["Dash", "ML/Regression", "Dashboard"],
     },
+        {
+        "image": "../assets/images/get-ahead-small.png",
+        "title": "Mental Health NLP App",
+        "description": "Dash app that uses a API to generate the views and all dynamic regarding a user and service provider.",
+        "link": "https://getahead2.herokuapp.com/app/nlp/",
+        "git": "#",
+        "badge": ["NLP", "Data Viz", "Mental Health"],
+    },
+        {
+        "image": "../assets/images/kop-mini-report.png",
+        "title": "Global Sector Market Analysis",
+        "description": "Web app that presents a report of the market analysis of a specific sector. It was built using Dash and it's a dev version with fake data",
+        "link": "https://mini-report-test.herokuapp.com/",
+        "git": "#",
+        "badge": ["Industry", "Sector", 'report'],
+    },
     {
         "image": "../assets/images/IBM2.png",
         "title": "Churn xplanable AI",
@@ -59,13 +68,14 @@ portfolio_data = [
         "git": "https://github.com/kaburelabs/plotly-churn-app",
         "badge": ["Plotly", "Churn", "Eli5", "ML"],
     },
+    
     {
-        "image": "../assets/images/trich-comp-small.png",
-        "title": "Dash Trich Components",
-        "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
-        "link": "https://romanonatacha.github.io/dash_trich_components/",
-        "git": "https://github.com/romanonatacha/dash_trich_components",
-        "badge": ["react.js", "dash", "convert", "library"],
+        "image": "../assets/images/mkt-promo-app-mini.png",
+        "title": "Mass Promo report",
+        "description": "Rendering a report with marketing data that provide insights about the performance of the promotions.",
+        "link": "https://verizon-report-mvp-ff2941cfd6b7.herokuapp.com/",
+        "git": "#",
+        "badge": ["Mkt data", "report", 'analysis'],
     },
     {
         "image": "../assets/images/wine.png",
@@ -106,6 +116,14 @@ portfolio_data = [
         "link": "https://pool.pm/dc3cf852aebe652cfa7435149f79bdf3a222aa892988f6a92b8d136a.Trich%20Coin",
         "git": "#",
         "badge": ["cardano", "nft", "native asset", "mint"],
+    },
+    {
+        "image": "../assets/images/trich-comp-small.png",
+        "title": "Dash Trich Components",
+        "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
+        "link": "https://romanonatacha.github.io/dash_trich_components/",
+        "git": "https://github.com/romanonatacha/dash_trich_components",
+        "badge": ["react.js", "dash", "convert", "library"],
     },
     {
         "image": "../assets/images/ship-detection.png",
@@ -171,5 +189,14 @@ portfolio_data = [
         "git": "https://github.com/kaburelabs/bbb-twitter-monitor",
         "badge": ["TwitterAPI", "Clustering", "Streaming"],
     },
+
+    # {
+    #     "image": "../assets/images/mkt-promo-app-mini.png",
+    #     "title": "Mass Promo report",
+    #     "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
+    #     "link": "https://verizon-report-mvp-ff2941cfd6b7.herokuapp.com/",
+    #     "git": "#",
+    #     "badge": ["Mkt data", "report", 'analysis'],
+    # },
 
 ]
