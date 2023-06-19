@@ -60,6 +60,14 @@ portfolio_data = [
         "badge": ["Plotly", "Churn", "Eli5", "ML"],
     },
     {
+        "image": "../assets/images/trich-comp-small.png",
+        "title": "Dash Trich Components",
+        "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
+        "link": "https://romanonatacha.github.io/dash_trich_components/",
+        "git": "https://github.com/romanonatacha/dash_trich_components",
+        "badge": ["react.js", "dash", "convert", "library"],
+    },
+    {
         "image": "../assets/images/wine.png",
         "title": "Wine Recommender System",
         "description": "This app was the second app built for trich.ai team. To analyze the Wine reviews dataset, we have some different NLP techniques, clustering, dynamic Data Viz with an interesting UI;",
@@ -120,6 +128,14 @@ portfolio_data = [
         ],
     },
     {
+        "image": "../assets/images/getahead1.png",
+        "title": "Mental Heatlh Analytics",
+        "description": "Simple app that shows the analytics of the mental health of a company. It was built to be used on a company that has a lot of employees and want to know how they are feeling.",
+        "link": "https://get-ahead-proj.herokuapp.com/",
+        "git": "#",
+        "badge": ["api", "analytics", "mental health"],
+    },
+    {
         "image": "../assets/images/flumeter.png",
         "title": "FluMeter App",
         "description": "FluMeter is a prototype to a healthcare data product, where it uses some researches to determine what's the contamination risk of your region. The request permission to get location from the user.",
@@ -155,12 +171,5 @@ portfolio_data = [
         "git": "https://github.com/kaburelabs/bbb-twitter-monitor",
         "badge": ["TwitterAPI", "Clustering", "Streaming"],
     },
-    {
-        "image": "../assets/images/swagger-docs.png",
-        "title": "Dash Trich Components",
-        "description": "React components that was built to be used on Dash apps. It has a lot of cool components that you can use on your app.",
-        "link": "https://romanonatacha.github.io/dash_trich_components/",
-        "git": "https://github.com/romanonatacha/dash_trich_components",
-        "badge": ["react.js", "dash", "convert", "library"],
-    },
+
 ]
